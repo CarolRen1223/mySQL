@@ -58,36 +58,35 @@ GROUP BY 语句用于结合合计函数，根据一个或多个列对结果集�
     group by name;
     '''
 会得到
-|        name |
---------------|
-|      Adiaha |
-|      Alison |
-|      Andrea |
-|       Bacon |
-|       Becky |
-|         Ben |
-|    Bertrand |
-|        Biff |
-|后面还有很长
-
+name |
+-----|
+Adiaha |
+Alison |
+Andrea |
+Bacon |
+Becky |
+Ben |
+Bertrand |
+Biff |
+后面还有很长|
 
 接下来我们添加一个count（）函数来看看
 
     QUERY = ''' select name, count(*) as num from animals
     group by name;
     '''
-   name | num |
--------|
-|      Adiaha |   1 |
-|      Alison |   1 |
-|      Andrea |   2 |
-|       Bacon |   1 |
-|       Becky |   1 |
-|         Ben |   1 |
-|    Bertrand |   1 |
-|        Biff |   1 |
-|       Bjorn |   1 |
-|后面依然很长
+name | num 
+-----|-----
+Adiaha |   1 
+Alison |   1 
+Andrea |   2 
+Bacon |   1 
+Becky |   1 
+Ben |   1 
+Bertrand |   1 
+Biff |   1 
+Bjorn |   1 
+后面依然很长|
 
 这个时候就是新建一个num列，列里面是每个name的个数，我们会发现有些名字出现次数比较高（这个表没展示完，因为太长了）
 
