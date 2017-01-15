@@ -58,6 +58,11 @@ GROUP BY 语句用于结合合计函数，根据一个或多个列对结果集�
     group by name;
     '''
 会得到
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 |  name |
 |:---------:|
 |  Adiaha |
