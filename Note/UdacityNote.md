@@ -1,8 +1,9 @@
 # SQL笔记
+Udacity-Intro to Relational Databases Notes
 ## SELECT ##
 
     QUERY = "select max(name) from animals;"
-找出animals文件夹里name那一列的最大值，如果是字母的话，就是最靠后的字母
+找出animals表里name那一列的最大值，如果是字母的话，就是最靠后的字母
 
 
 ----------
