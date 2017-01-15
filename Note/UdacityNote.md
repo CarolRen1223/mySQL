@@ -58,9 +58,9 @@ GROUP BY 语句用于结合合计函数，根据一个或多个列对结果集�
     group by name;
     '''
 会得到
-name |
------|
-Adiaha |
+|name |
+|-----|
+|Adiaha |
 Alison |
 Andrea |
 Bacon |
@@ -98,8 +98,8 @@ Bjorn |   1
     '''
 结果如下:
 |        name | num |
-----|
-|      George |   4 |
+----|----
+|      George |   4 |
 |      Andrea |   2 |
 |     Charlie |   2 |
 |        John |   2 |
