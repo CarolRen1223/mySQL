@@ -97,7 +97,7 @@ Bjorn |   1
     order by num desc;
     '''
 结果如下:
- name | num 
+name| num 
 ----|----
 George |   4 
 Andrea |   2 
@@ -113,7 +113,7 @@ Bacon |   1
 
     limit 5
 最后显示如下:
- name | num 
+name | num 
 ----|----
 George |   4 
 Andrea |   2 
