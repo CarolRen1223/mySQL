@@ -58,9 +58,9 @@ GROUP BY 语句用于结合合计函数，根据一个或多个列对结果集�
     group by name;
     '''
 会得到
-|name |
-|-----|
-|Adiaha |
+name |
+-----|
+Adiaha|
 Alison |
 Andrea |
 Bacon |
@@ -97,27 +97,26 @@ Bjorn |   1
     order by num desc;
     '''
 结果如下:
-|        name | num |
+ name | num 
 ----|----
-|      George |   4 |
-|      Andrea |   2 |
-|     Charlie |   2 |
-|        John |   2 |
-|         Max |   2 |
-|        Spot |   2 |
-|      Adiaha |   1 |
-|      Alison |   1 |
-|       Bacon |   1 |
-|后面还有没列出
-
+George |   4 
+Andrea |   2 
+Charlie |   2 
+John |   2 
+Max |   2 
+Spot |   2 
+Adiaha |   1 
+Alison |   1 
+Bacon |   1 
+后面还有没列出|
 那么如果我们只想看看出现次数最多的前5项，那么就再加一句
 
     limit 5
 最后显示如下:
-|    name | num |
-----|
-|  George |   4 |
-|  Andrea |   2 |
-| Charlie |   2 |
-|    John |   2 |
-|     Max |   2 |
+ name | num 
+----|----
+George |   4 
+Andrea |   2 
+Charlie |   2 
+John |   2 
+ Max |   2 
