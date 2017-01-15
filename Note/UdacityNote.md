@@ -58,17 +58,17 @@ GROUP BY 语句用于结合合计函数，根据一个或多个列对结果集�
     group by name;
     '''
 会得到
-name |
------|
-Adiaha|
-Alison |
-Andrea |
-Bacon |
-Becky |
-Ben |
-Bertrand |
-Biff |
-后面还有很长|
+|  name |
+|:---------:|
+|  Adiaha |
+|  Alison |
+|  Andrea |
+|  Bacon |
+|  Becky |
+|  Ben |
+|  Bertrand |
+|  Biff |
+| 后面还有很长 |
 
 接下来我们添加一个count（）函数来看看
 
