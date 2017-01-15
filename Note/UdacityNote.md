@@ -98,7 +98,7 @@ Bjorn |   1
     '''
 结果如下:
 name | num 
-----|----
+-----|----
 George |   4 
 Andrea |   2 
 Charlie |   2 
@@ -114,9 +114,9 @@ Bacon |   1
     limit 5
 最后显示如下:
 name | num 
-----|----
+-----|----
 George |   4 
 Andrea |   2 
 Charlie |   2 
 John |   2 
- Max |   2 
+Max |   2 
