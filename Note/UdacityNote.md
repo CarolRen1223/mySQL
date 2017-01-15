@@ -97,7 +97,7 @@ Bjorn |   1
     order by num desc;
     '''
 结果如下:
-name| num 
+name | num 
 ----|----
 George |   4 
 Andrea |   2 
