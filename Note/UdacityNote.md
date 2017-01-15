@@ -58,10 +58,7 @@ GROUP BY 语句用于结合合计函数，根据一个或多个列对结果集�
     group by name;
     '''
 会得到
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+
 
 |  name |
 |:---------:|
@@ -102,6 +99,7 @@ Bjorn |   1
     order by num desc;
     '''
 结果如下:
+
 name | num 
 -----|-----
 George |   4 
@@ -118,6 +116,7 @@ Bacon |   1
 
     limit 5
 最后显示如下:
+
 name | num 
 -----|-----
 George |   4 
